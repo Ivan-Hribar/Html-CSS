@@ -1,0 +1,31 @@
+html{
+    background-color: #4d4c4c;
+    font-family: Arial ;
+    color:#666;
+    }
+body {margin: 0 auto;
+    width: 900px;
+    height:2100px;
+    background-color: #efe9e9;
+    }
+h1,h2,h3,h4{ color: #147 ; background-color: white; text-align:right; margin-right: 110px;  ;}
+#zen-intro
+    {background-image:url('title.jpg');
+    height:275px ;
+    background-repeat:no-repeat;
+    align-content: center;
+    }
+    
+#zen-supporting, #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements{width: 450px;}
+#zen-supporting{
+    margin-left: 400px;;
+}
+
+#zen-intro h1, #zen-intro h2, #zen-intro p{
+    visibility: hidden;}
+.sidebar{ 
+    background-color: white;
+    margin-top:-1800px;
+    margin-left:0px;
+    width:350px;
+    }

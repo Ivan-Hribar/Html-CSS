@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.black {
+    float: left;
+    width: 33%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+p {
+    padding: 20px;
+    text-align: justify;
+}
+.teal {
+    float: right;
+    width: 33%;
+    background-color: teal;
+    text-align: center;
+}
+.drugasek {
+    clear: both;
+    margin: 0 auto;
+    width: 50%;
+}
+.lightcoral {
+    float: left;
+    width: 50%;
+    background-color: lightcoral;
+    text-align: center;
+}
+.tomato {
+    float: right;
+    width: 50%;
+    background-color: tomato;
+    text-align: center;
+}
+.trecasek {
+    float: left;
+    clear: both;
+}
+.orange {
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: orange;
+}
+.darkred {
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: darkred;
+    color: white;
+}
+.indigo {
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: indigo;
+    color: white;
+}
+.lime {
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: lime;
+}
+.cetsek {
+    clear: both;
+    margin: 0 auto;
+    width: 50%;
+}
+.gold {
+    width: 33%;
+    float: left;
+    text-align: center;
+    background-color: gold;
+}
+.silver {
+    width: 33%;
+    float: right;
+    text-align: center;
+    background-color: silver;
+}
+.slika1 {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+.slika2 {
+    width: 20%;
+    float: right;
+    padding: 20px;
+}
+@media (max-width: 800px) {
+    .black {
+        width: 100%;
+        float: left;
+    }
+    .teal {
+        width: 100%;
+        float: left;
+        clear: both;
+        color: white;
+    }
+    .tomato {
+        float: left;
+        color: white;
+    }
+    .lightcoral {
+        float: right;
+        color: white;
+    }
+    .orange {
+        width: 100%;
+        float: left;
+        color: white;
+    }
+    .darkred {
+        width: 100%;
+        float: left;
+        clear: both;
+    }
+    .indigo {
+        width: 100%;
+        float: left;
+        clear: both;
+    }
+    .lime {
+        width: 100%;
+        float: left;
+        clear: both;
+        color: white;
+    }
+    .gold {
+        float: left;
+        width: 100%;
+        color: white;
+    }
+    .silver {
+        float: left;
+        clear: both;
+        width: 100%;
+        color: white;
+    }
+    .slika1 {
+        float: right;
+    }
+    .slika2 {
+        float: left;
+    }
+}

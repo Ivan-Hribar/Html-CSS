@@ -1,0 +1,236 @@
+@media (min-width: 800px) {
+
+    body {
+        background-color: #FF5722
+        ;
+    }
+    .naslov {
+        min-height: 150px;
+        border: 1px solid white;
+        max-width: 50%;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: left;
+        color: white;
+    }
+    .headtext {
+        float: left;
+        padding-left: 5px;
+    }
+    .tesla {
+        width: 150px;
+        float: left;
+    }
+    main {
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    .posao {
+        width: 45%;
+        border: 1px solid white;
+        text-align: center;
+        color: white;
+        float: left;
+        margin-top: 20px;
+    }
+    .posao p {
+        text-align: justify;
+        padding: 20px;
+    }
+    .prica {
+        width: 45%;
+        border: 1px solid white;
+        text-align: justify;
+        float: right;
+        margin-top: 20px;
+        color: white;
+        font-style: italic;
+    }
+    .prica p {
+        padding: 20px;
+    }
+    .content {
+        width: 30%;
+        float: left;
+        clear: both;
+        margin-bottom: 30px;
+    }
+    .slike {
+        width: 65%;
+        float: right;
+    }
+    .rodenje {
+        border: 1px solid white;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        float: left;  
+        clear: both;
+    }
+    .rodenje p {
+        text-align: justify;
+        padding: 20px;
+    }
+    .prvaslika {
+        width: 100%;
+        float: right;
+        margin-top: 20px;
+        margin-left: 20px;
+        border: 1px solid white;
+        padding: 5px;
+    }
+    .mladost {
+        margin-top: 10px;
+        float: left;
+        clear: both;
+        color: white;
+        border: 1px solid white;
+        text-align: center;
+    }
+    .mladost p {
+        text-align: justify;
+        padding: 20px;
+    }
+    .smrt {
+        margin-top: 10px;
+        float: left;
+        clear: both;
+        color: white;
+        border: 1px solid white;
+        text-align: center;
+    }
+    .smrt p {
+        text-align: justify;
+        padding: 20px;
+    }
+    .drugaslika {
+        width: 100%;
+        float: right;
+        clear: both;
+        margin-top: 20px;
+        margin-left: 20px;
+        border: 1px solid white;
+        padding: 5px;
+    }
+}
+@media (max-width: 800px) {
+    body {
+         background-color: #2196F3
+         ;
+    }
+    .naslov {
+        min-height: 150px;
+        border: 1px solid white;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: left;
+        color: white;
+    }
+    .headtext {
+        float: left;
+    }
+    .tesla {
+        width: 150px;
+        float: right;
+    }
+    header h1, header p {
+        float: left;
+        color: white;
+    }
+    main {
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    .posao {
+        width: 100%;
+        border: 1px solid white;
+        text-align: center;
+        color: white;
+        float: left;
+        margin-top: 20px;
+    }
+    .posao p {
+        text-align: justify;
+        padding: 20px;
+    }
+    .prica {
+        width: 100%;
+        border: 1px solid white;
+        text-align: justify;
+        float: right;
+        margin-top: 20px;
+        color: white;
+        font-style: italic;
+    }
+    .prica p {
+        padding: 20px;
+    }
+    .content {
+        width: 100%;
+        float: left;
+        clear: both;
+        margin-bottom: 30px;
+    }
+    .slike {
+        width: 100%;
+        float: left;
+        clear: both;
+        margin-bottom: 30px;
+    }
+    .rodenje {
+        width: 30%;
+        border: 1px solid white;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        float: left;  
+    }
+    .rodenje p {
+        text-align: justify;
+        padding: 20px;
+    }
+    .prvaslika {
+        width: 45%;
+        float: right;
+        border: 1px solid white;
+        padding: 5px;
+    }
+    .mladost {
+        width: 30%;
+        margin-top: 20px;
+        float: left;
+        margin-left: 5%;
+        color: white;
+        border: 1px solid white;
+        text-align: center;
+    }
+    .mladost p {
+        text-align: justify;
+        padding: 20px;
+    }
+    .smrt {
+        width: 30%;
+        margin-top: 20px;
+        float: right;
+        color: white;
+        border: 1px solid white;
+        text-align: center;
+    }
+    .smrt p {
+        text-align: justify;
+        padding: 20px;
+    }
+    .drugaslika {
+        width: 45%;
+        float: left;
+        border: 1px solid white;
+        padding: 5px;
+        margin-left: 20px;
+    }
+}
+@media (max-width:800px) and (min-width:700px){
+    body {
+        background-color: #774DF6;
+    }
+}

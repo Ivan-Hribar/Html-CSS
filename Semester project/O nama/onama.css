@@ -1,0 +1,123 @@
+body{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: rgb(23, 18, 94);
+}
+header{
+    font-family: 'Oswald', sans-serif;
+}
+iframe{margin-left: 702px; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    border: mediumblue;
+    border-width: thick;}
+.container{
+    border:4px solid blue ;
+    border-radius: 25px; 
+    background-color: royalblue;
+    width: 1000px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+
+
+}
+.container1{
+    border:4px solid blue ;
+    border-radius: 25px; 
+    background-color: royalblue;
+    width: 1000px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+
+}
+.sastrane{ 
+    height: 500px;
+    position: fixed;
+    margin-top: 220px;
+    margin-left: 50px;
+    line-height: 100px;
+    top: 0;
+    left:0;
+    background-color:royalblue;
+    padding-top: 60px;
+    border:solid 5px;
+    border-style: double;
+    align-content: center;}
+.sastrane h1{
+            text-align: center;
+            font-size: 30px;}
+
+#osnivaci{padding-left: 30px;}
+
+
+.glavno{
+    font-family: 'arial';
+    font-size: 14px;
+    color: #666;
+}
+
+h3{padding-left:30px;}
+
+.logo{height: 100px;}
+   
+li{color: cornsilk;
+margin-left: 50px;}
+
+ul{list-style-type: none;
+display: flex;
+margin-bottom: 100px;
+background-color: royalblue;
+width: 100%;}
+
+.li-padding{padding-top: 20px;}
+
+.slika1{ width: 995px;
+    padding: 2px;
+    border: solid;
+    border-style:double;
+    border-color: blue;
+    border-radius: 20px;
+}
+
+p{line-height: 2.2;
+    padding-left:30px ;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: lighter;}
+    
+.slike{height:250px;
+    padding-bottom: 55px;
+    padding-right: 55px}
+footer{color: cornsilk;
+    position: relative;
+    height: 100px;
+    background-color: royalblue;
+    width: 1900px;
+    text-align: center;}
+
+a{text-decoration:none}
+.vertical-center {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+header a:visited{color:white}
+table{ margin-left: 500px;
+    
+    text-align: center;
+    width: 1000px;
+    height: 620px;
+    border-color:blue;
+background-color: royalblue;}
+#mail{font-size: large;
+    color: #000;
+}
